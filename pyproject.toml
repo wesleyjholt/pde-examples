@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pde-examples"
+version = "0.1.0"
+description = ""
+authors = ["Wesley Holt <wesleyjholt@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jax = "^0.4.30"
+seaborn = "^0.13.2"
+fipy = "^3.4.5"
+ipykernel = "^6.29.5"
+pyvista = "^0.44.0"
+trame = "^3.6.3"
+gmsh = "^4.13.1"
+pygmsh = "^7.1.17"
+sympy = "^1.13.1"
+diffrax = "^0.6.0"
+imageio = {extras = ["ffmpeg"], version = "^2.34.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
